@@ -1,0 +1,21 @@
+#clock{
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 5em; /* Equivalent to 150px */
+    color: rgb(42, 242, 7);
+ 
+}
+
+@media screen and (max-width: 768px) {
+    #clock {
+        font-size: 3em; /* Equivalent to 90px */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #clock {
+        font-size: 2em; /* Equivalent to 60px */
+    }
+}
+
